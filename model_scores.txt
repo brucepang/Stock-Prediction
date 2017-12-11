@@ -1,0 +1,39 @@
+Google 
+    [Different layers of LSTM]
+    Window: 22. Models: 2 LSTM + RELU + Linear
+        Train Score: 0.00258 MSE (0.05 RMSE)
+        Test Score: 0.02414 MSE (0.16 RMSE)
+    Window: 22. Models: 3 LSTM + RELU + Linear
+        Train Score: 0.00127 MSE (0.04 RMSE)
+        Test Score: 0.01125 MSE (0.11 RMSE)
+    Window: 22. Models: 4 LSTM + RELU + Linear
+        Train Score: 0.00103 MSE (0.03 RMSE)
+        Test Score: 0.00477 MSE (0.07 RMSE)
+       
+    [Different window size]
+    Window: 5. Models: 2 LSTM + RELU + Linear
+        Train Score: 0.00080 MSE (0.03 RMSE)
+        Test Score: 0.00686 MSE (0.08 RMSE)
+    Window: 22. Models: 2 LSTM + RELU + Linear
+        Train Score: 0.00258 MSE (0.05 RMSE)
+        Test Score: 0.02414 MSE (0.16 RMSE)
+    Window: 44. Models: 2 LSTM + RELU + Linear
+        Train Score: 0.00162 MSE (0.04 RMSE)
+        Test Score: 0.01710 MSE (0.13 RMSE)
+    Window: 88. Models: 2 LSTM + RELU + Linear
+        Train Score: 0.00091 MSE (0.03 RMSE)
+        Test Score: 0.00770 MSE (0.09 RMSE)
+        
+    [Use RNN with different window size]
+    Window: 22. Models: 2 RNN + RELU + Linear
+        Train Score: 0.00114 MSE (0.03 RMSE)
+        Test Score: 0.01400 MSE (0.12 RMSE)
+    Window: 5. Models: 2 RNN + RELU + Linear
+        Train Score: 0.00093 MSE (0.03 RMSE)
+        Test Score: 0.00997 MSE (0.10 RMSE)
+    Window: 44. Models: 2 RNN + RELU + Linear
+        Train Score: 0.00145 MSE (0.04 RMSE)
+        Test Score: 0.02032 MSE (0.14 RMSE)
+    Window: 88. Models: 2 RNN + RELU + Linear
+        Train Score: 0.01022 MSE (0.10 RMSE)
+        Test Score: 0.10099 MSE (0.32 RMSE)
